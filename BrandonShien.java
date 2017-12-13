@@ -4,14 +4,14 @@ import java.util.ArrayList; // for ArrayList
 import gpdraw.*; 
            // for DrawingTool
 
-public class IrregularPolygon{
+public class BrandonShien implements Polygon{
     private ArrayList <Point2D.Double> myPolygon = new ArrayList<>();
 
     private SketchPad myPaper;
     private DrawingTool myPencil;
 
     // constructors
-    public IrregularPolygon() {
+    public BrandonShien() {
         SketchPad myPaper = new SketchPad(500,500);
         DrawingTool myPencil = new DrawingTool(myPaper);
         
